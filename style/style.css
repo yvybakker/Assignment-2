@@ -1,0 +1,263 @@
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+  .logo-raf {
+      position: fixed;
+  }
+
+  .menu {  
+    padding: 3em;
+  }
+
+  .nav-bar {
+    color: #000; 
+    text-decoration: none;
+    font-family: arial;
+    width: 100%;
+  }
+
+  .nav-bar:hover {
+    cursor: crosshair;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  .nav-bar-click {
+    font-family: arial;
+    width: 100%;
+  }
+
+  .text-master {
+    display: flex;
+    color: #000;
+    font-family: arial;
+    letter-spacing: 0.05em;
+  }
+
+  .text-master-contact {
+    font-family: arial;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .text-master-link {
+    font-family: arial;
+    color: #000;
+  }
+
+@media (min-width: 375px) {
+
+  .logo-raf {
+    height: 1.7em; 
+    margin: 1.7em;
+   }
+
+  .menu {  
+    text-align: center;
+    padding: 3em;
+   }
+
+  .nav-bar {  
+    line-height: 2.5em;
+    font-size: 1em;
+   }
+
+  .nav-bar-click {
+    color: #000; 
+    letter-spacing: 0.05em;
+    line-height: 2.5em;
+    font-size: 1em;
+    text-decoration: underline;
+   }
+
+  .nav-bar:hover {
+    color: #000;
+    -webkit-text-stroke-width: 0px;
+   }
+
+  .image-master {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+  .image {
+    padding: 1em;
+    height: 20em;
+    width: 16em;
+   }
+
+  .text-master-contact {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10vh;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: #000;
+   }
+
+  .text-master-link {
+    text-decoration: underline;
+   }
+
+  .text-master-about {
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px)  {
+
+  .logo-raf {
+    height: 3em; 
+    margin: 3em;
+   }
+
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5em;
+    margin-top: 0vh;
+   }
+
+  .nav-bar { 
+    font-size: 1.5em;
+    letter-spacing: 0.05em; 
+   }
+
+  .nav-bar-click {
+    letter-spacing: 0.05em;
+    line-height: 2.5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    width: 100%;
+    cursor: crosshair;
+    color: #fff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+   }
+    
+  .image-master {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7vh;
+    margin-left: 2em;
+   }
+
+  .image {
+    padding: 1em;
+    height: auto;
+    width: 28%;
+   }
+
+  .text-master-contact{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    margin-top: 25vh;
+    text-decoration: none;
+   }
+
+  .text-master-link{
+    text-decoration: none;
+    font-family: arial;
+    color: #000;
+   }
+
+  .text-master-link:hover {
+    cursor: crosshair;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+   }
+
+  .text-master-about {
+    font-size: 1.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 12vh;
+   }
+}  
+
+@media (min-width: 1280px)  {
+
+  .logo-raf {
+    height: 3em; 
+    margin: 3em;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5em;
+   }
+
+  .nav-bar { 
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+
+  .nav-bar-click {
+    color: #000; 
+    letter-spacing: 0.05em;
+    line-height: 2.5em;
+    font-size: 2em;
+    text-decoration: none;
+    cursor: crosshair;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  .image-master-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 3vh;
+    padding: 1em;
+    flex-direction: row;
+  }
+
+  .image {
+    padding: 1em;
+    height: auto;
+    width: 32%;
+  }
+
+  .text-master-contact{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    margin-top: 25vh;
+    line-height: 1.5em;
+  }
+
+  .text-master-link{
+    text-decoration: none;
+    font-family: arial;
+    color: #000;
+  }
+
+  .text-master-link:hover {
+    cursor: crosshair;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  .text-master-about {
+    font-size: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 12vh;
+  }
+}
